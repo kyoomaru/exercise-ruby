@@ -1,6 +1,5 @@
 puts "計算をはじめます"
 puts "何回繰り返しますか？"
-
 input = gets.to_i
 i = 1
 
@@ -22,7 +21,6 @@ while i <= input do
   puts "#{a}/#{b}=#{a / b}"
 
   i += 1
-
 end
 
 puts "計算を終了します"
